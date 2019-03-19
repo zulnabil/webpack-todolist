@@ -1,0 +1,1 @@
+export var welcome = "Hello webpack. Demo works";

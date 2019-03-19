@@ -1,0 +1,17 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server src/main.js -o dist/bundle.js",
+    "build:prod": "webpack src/main.js -o dist/bundle.js --mode development"
+  },
+  "author": "Divert",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
